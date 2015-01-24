@@ -51,6 +51,7 @@ public class BasicCrawlController {
     config.setPolitenessDelay(1000);
     config.setIncludeBinaryContentInCrawling(true);
     config.setResumableCrawling(false);
+    config.setMaxDepthOfCrawling(1);
 
     final PageFetcher pageFetcher = new PageFetcher(config);
     final RobotstxtConfig robotstxtConfig = new RobotstxtConfig();
