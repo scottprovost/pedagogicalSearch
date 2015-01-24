@@ -84,6 +84,7 @@ public class BasicCrawler extends WebCrawler {
 
     	if(logger.isInfoEnabled()){
     		logger.info("Text length: {}", text.length());
+    		logger.info("Text length: {}", text);
     		logger.info("Html length: {}", html.length());
     		logger.info("Number of outgoing links: {}", links.size());
     	}
