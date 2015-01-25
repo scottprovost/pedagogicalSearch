@@ -1,2 +1,2 @@
 # pedagogicalSearch
-Inteligent Search Engine for the Pedagogical Web.
+Intelligent Search Engine for the Pedagogical Web.
